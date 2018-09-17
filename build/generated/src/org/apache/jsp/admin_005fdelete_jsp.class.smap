@@ -1,0 +1,29 @@
+SMAP
+admin_005fdelete_jsp.java
+JSP
+*S JSP
+*F
++ 0 admin_delete.jsp
+admin_delete.jsp
++ 1 connection.jsp
+connection.jsp
++ 2 InsertLogs.jsp
+InsertLogs.jsp
+*L
+5,9:82
+5#1,7:90
+11:17
+11,2:97
+14,13:101
+26,2:114
+13#0:116
+1#2:117
+2:18
+2,2:118
+5,17:20
+14#0,2:120
+16,5:37
+20:122
+22,77:124
+98:201
+*E

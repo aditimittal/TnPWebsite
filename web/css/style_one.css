@@ -1,0 +1,402 @@
+*{
+/*        text-align: center;*/
+margin: 0px;
+margin-top: 0%;
+margin-left: 0%;
+font-family: 'Helvetica', 'Arial', sans-serif;
+text-decoration: none;
+padding: 0px;
+list-style-type: none;
+    }
+    
+ a {
+    all: unset;
+  }
+aside,article,section{
+	display:block;
+	
+}
+.container{
+	width:100%;
+	margin-left:auto;	
+	margin-right:auto;
+	margin-bottom:1%;
+	padding:1%;
+}
+
+
+.button{
+	left:40%;
+	right:40%;
+	font-size:1.1em;
+	text-align:center;
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-top:1%;
+	margin-bottom:1%;
+	
+}
+input[type="text"]
+{
+    font-size:1em;
+}
+#head1 {
+	font-size:1.4em;
+	text-align:center;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+.left{
+	text-align:left;
+}
+.center{
+	text-align:center;
+}
+
+/*.box{
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+	text-align:center;
+	background-color:#f5f5f0;
+	height:45%;
+	font-size:1.2em;
+	line-height:1.5em;
+	width:80%;
+	padding-bottom:2%;
+	padding-left:2%;
+	padding-top:1%;
+	padding-right:2%;
+
+}*/
+/**********************************************************************************************************************/
+/*BASIC HOME*/
+
+.logo
+    {
+        width: 140px;
+        margin-left: 25%;
+        float: left;
+    }
+.text{
+	width:80%;
+	float:left;
+}
+
+.one{
+	margin-top:3%;
+	color:#0f0f0a;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	font-size:1.5em;
+	/*line-height:0.5 em;*/
+	
+}
+.two{
+	margin-top:1%;
+	color:#0f0f0a;
+	letter-spacing:0.1em;
+	line-height:0.5 em;
+	font-size:1em;
+	
+}
+.three{
+	margin-top:1%;
+	color:#0f0f0a;
+	letter-spacing:0.1em;
+	line-height:0.5 em;
+	font-size:1em;
+	
+}
+.four{
+	margin-top:1.5%;
+	color:#0f0f0a;
+	letter-spacing:0.1em;
+	line-height:0.5 em;
+	font-size:2em;
+	
+}
+.clear{
+	clear:both;
+}
+/*Header over*/
+/* Navigration bar*/
+
+
+
+/*Navigation over*/
+
+.box_login{
+	margin-top:5%;
+	padding:2%;
+	font-size:1.2em;
+	float:left;
+	background-color:#f5f5f0;
+	/*position:static;*/
+	width:30%;
+	height:15%;
+	margin-left:5%;
+	margin-right:5%;
+	text-align:center;	
+}
+
+.box_login input{
+	font-size:1.2em;
+	margin:1%;
+}
+
+.invite{
+/*	position:static;*/
+	text-align:justify;
+	margin-top:5%;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	margin-bottom:2%;
+	float:left;
+	width:45%;
+	height:40%;
+	background-color:#f5f5f0;
+	font-size:1.2em;
+	padding-left:2%;
+	padding-bottom:2%;
+	padding-right:2%;
+	word-spacing:0.2em;
+	line-height:1.1em;
+}
+
+/*for hover drop down*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}*/
+
+/*****************************/
+/* Now for Why IGDTUW screen */
+.box_notif{
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color:#f5f5f0;
+	height: 200%;
+	font-size:1.2em;
+	line-height:1.5em;
+	width:80%;
+	padding-bottom:2%;
+	padding-left:2%;
+	padding-top:1%;
+	padding-right:2%;
+
+}
+.box_notif1{
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color:#f5f5f0;
+	height: 200%;
+        align-items: center;
+	font-size:1.2em;
+	line-height:1.5em;
+	width:80%;
+	padding-bottom:2%;
+	padding-left:2%;
+	padding-top:1%;
+	padding-right:2%;
+
+}
+
+.box_why{
+	margin-top:2%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#f5f5f0;
+	text-align:justify;
+	height:45%;
+	font-size:1.2em;
+	line-height:1.5em;
+	padding-bottom:3%;
+	padding-top:1%;
+	padding-right:3%;
+	padding-left:3%;
+	font-size:1.2em;
+	word-spacing:0.2em;
+	line-height:1.1em;
+
+}
+
+/*************************************/
+/* Now for stats screen */
+.box_stats{
+	margin-top:2%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:#f5f5f0;
+	text-align:center;
+	height:45%;
+	font-size:1.2em;
+	line-height:1.5em;
+	padding-bottom:3%;
+	padding-top:1%;
+	padding-left:3%;
+}
+/***************************************************************************************************************/
+
+/*STUDENTS SCREENS*/
+/* Now for STUDENTS-NOTIFICATION BOARD screen */
+.student_nav{
+	text-decoration:none;
+	width:76%;
+	margin-top:5%;
+	margin-left:12%;
+	margin-right:12%;
+	color:white;
+	font-size:1.2em;
+	
+	
+}
+.student_nav ul li{
+	text-decoration:none;
+	text-align:center;
+	font-weight:normal;
+	font-size:1.2em;
+	float:left;
+	padding:0.5%;
+	padding-left:2%;
+	padding-right:2%;
+	border:solid 1px white;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	background-color : green;
+}
+/* Change the background color of the button on hovering */
+.student_nav li a:hover {
+	/*color:black;*/
+	/*font-size:1.1em;*/
+	background-color:#808080;
+}
+.box{
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color:#f5f5f0;
+	text-align:center;
+	height:45%;
+	font-size:1.2em;
+	line-height:1.5em;
+	width:80%;
+	padding-bottom:2%;
+	padding-left:2%;
+	padding-top:1%;
+	padding-right:2%;
+
+}
+.box_profile{
+	padding-left:3%;
+	padding-top:1%;
+	padding-bottom:3%;
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color:#f5f5f0;
+	text-align:left;
+	height:45%;
+	font-size:1.2em;
+	line-height:1.5em;
+	width:80%;	
+	
+}
+/************************************************************************************************************/
+/*ADMIN*/
+
+
+.box_database{
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color:#f5f5f0;
+	height:45%;
+	text-align:center;
+	font-size:1.2em;
+	line-height:1.5em;
+	width:80%;
+	padding-bottom:2%;
+	padding-left:2%;
+	padding-top:1%;
+	padding-right:2%;
+
+}
+
+/*for table of admin rights */
+table,td,th{
+	border-bottom: 1px solid #ddd;
+        border-left: none;
+        border-right: none;
+}
+tr,tb{
+	padding:1%;
+}
+/*box for add admin*/
+.box_add{
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+	text-align:center;
+	background-color:#f5f5f0;
+	height:45%;
+	font-size:1.2em;
+	line-height:1.5em;
+	width:80%;
+	padding-bottom:2%;
+	padding-left:2%;
+	padding-top:1%;
+	padding-right:2%;
+
+}
+
+.small_image{
+	height:5%;width:5%;padding-right:5%;padding-left:5%
+}
